@@ -1,0 +1,67 @@
+:root{
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: #0d6efd;
+  --secondary-color:#6c757d;
+  --success-color: #198754;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #0dcaf0;
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+
+  --indigo-color: #6610f2;
+  --purple-color: #6f42c1;
+  --pink-color:#d63384;
+  --orange-color: #fd7e14;
+  --teal-color: #20c997;
+
+  --blue-google-color: #4285F4;
+  --red-google-color: #EA4335;
+  --yellow-google-color:#FBBC05;
+  --green-google-color: #34A853;
+
+  --blue-microsoft-color: #00A1F1;
+  --red-microsoft-color: #F65314;
+  --yellow-microsoft-color:#FFBB00;
+  --green-microsoft-color: #7CBB00;
+  
+  --text-color: #333;
+  --text-primary: #1170fd;
+  --text-secondary: #6c757d;
+  --text-success: #198754;
+  --text-danger: #dc3545;
+  --text-warning: #ffc107;
+  --text-info: #0dcaf0;
+  --text-light: #f8f9fa;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  /* Color */
+
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full_width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
